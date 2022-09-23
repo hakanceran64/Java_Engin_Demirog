@@ -21,18 +21,21 @@ public class ArrayListDemo {
         // ArrayList'e eleman ekleme.
         sayilarArrayList.add(1);
         sayilarArrayList.add(2);
+
+        // ArrayList'teki bütün elemanları silmek için.
+        sayilarArrayList.clear();
+
+        sayilarArrayList.add(125);
+        sayilarArrayList.add(127.5);
         sayilarArrayList.add("Ankara");
         sayilarArrayList.add("Istanbul");
 
-        // 0. indecteki elemanı değiştirme
+        // 0. indexteki elemanı değiştirme
         sayilarArrayList.set(0, 100);
 
         // ArrayList'ten istenilen index'teki elemanı silme.
         // Eleman silindikten sonra diğer elemanlar silinen elemanın yerine doğru kayar.
         sayilarArrayList.remove(3);
-
-        // ArrayList'teki bütün elemanları silmek için.
-        sayilarArrayList.clear();
 
         // ArrayList'lerin for döngüsünde kullanımı.
         for (Object i : sayilarArrayList){
