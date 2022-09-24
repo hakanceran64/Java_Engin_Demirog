@@ -2,14 +2,13 @@
  * @File: ArrayListClass.java
  * @Authors: Hakan CERAN, Engin DEMİROĞ
  * @Date: 23.09.2022
- * @Content:
+ * @Content: try catch ve finally kavramları
  * @Notes:
  */
 
 package exception_handling;
 
 public class ExceptionHandling {
-
     public static void main(String[] args){
         int[] sayilar = new int[]{1, 2, 3, 4};
 
@@ -22,7 +21,5 @@ public class ExceptionHandling {
             // finally her zaman çalışır.
             System.out.println("Bazı durumlarda istem başarılı veya başarısız da olsa sistemi kapatmak gerekebilir.");
         }
-
     }
-
 }
