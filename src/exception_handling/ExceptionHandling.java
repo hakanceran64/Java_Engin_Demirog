@@ -14,6 +14,13 @@ public class ExceptionHandling {
 
         try {
             System.out.println(sayilar[10]);
+        } catch (ArrayIndexOutOfBoundsException exception){
+            System.out.println("Catch: Array Index Out Of Bounds Exception");
+        } catch (StringIndexOutOfBoundsException exception) {
+            System.out.println("Catch: String Index Out Of Bounds Exception");
+        } catch (IndexOutOfBoundsException exception) {
+            System.out.println("Catch: Index Out Of Bounds Exception");
+            System.out.println(exception);
         } catch (Exception exception) {
             System.out.println("Hata olustu.");
             System.out.println(exception);
