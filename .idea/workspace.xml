@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d48cca5-2e4e-453a-974e-96bf88918749" name="Changes" comment="Try Catch Finally">
-      <change afterPath="$PROJECT_DIR$/src/exception_handling/ReadingFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception_handling/sayilar.txt" afterDir="false" />
+    <list default="true" id="9d48cca5-2e4e-453a-974e-96bf88918749" name="Changes" comment="Reading File Exception Handling">
+      <change afterPath="$PROJECT_DIR$/src/exception_handling/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_handling/BalanceInsufficentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception_handling/MainAccountManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/ReadingFileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception_handling/ReadingFileDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReadingFileDemo">
+  <component name="RunManager" selected="Application.MainAccountManager">
     <configuration name="ArrayListWithClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="koleksiyonlar.ArrayListWithClass" />
       <module name="Java_Engin_Demirog" />
@@ -84,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainAccountManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception_handling.MainAccountManager" />
+      <module name="Java_Engin_Demirog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception_handling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadingFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exception_handling.ReadingFileDemo" />
       <module name="Java_Engin_Demirog" />
@@ -99,10 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAccountManager" />
+        <item itemvalue="Application.ArrayListWithClass" />
         <item itemvalue="Application.ReadingFileDemo" />
         <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="Application.ArrayListWithClass" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664036006862</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Reading File Exception Handling">
+      <created>1664142528458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664142528458</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +207,7 @@
     <MESSAGE value="ArrayList Demo" />
     <MESSAGE value="HashMap" />
     <MESSAGE value="Try Catch Finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="Try Catch Finally" />
+    <MESSAGE value="Reading File Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading File Exception Handling" />
   </component>
 </project>
