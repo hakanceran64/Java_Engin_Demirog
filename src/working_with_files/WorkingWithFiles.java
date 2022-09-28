@@ -9,12 +9,15 @@
 package working_with_files;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class WorkingWithFiles {
     public static void main(String[] args) {
         createFile();
         getFileInfo();
+        readFile();
     }
 
     public static void createFile(){
@@ -40,6 +43,21 @@ public class WorkingWithFiles {
             System.out.println("Can File Write: " + file.canWrite());
             System.out.println("Can File Read: " + file.canRead());
             System.out.println("File Length Byte: " + file.length());
+        }
+    }
+
+    public static void readFile(){
+        File file = new File("src/working_with_files/students.txt");
+        try {
+            Scanner reader = new Scanner(file);
+
+            while (reader.hasNextLine()){
+                String line = reader.nextLine();
+                System.out.println("Line: " + line);
+            }
+            reader.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
     }
 }

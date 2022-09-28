@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d48cca5-2e4e-453a-974e-96bf88918749" name="Changes" comment="Working With Files">
+    <list default="true" id="9d48cca5-2e4e-453a-974e-96bf88918749" name="Changes" comment="File Info">
       <change beforePath="$PROJECT_DIR$/src/working_with_files/WorkingWithFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/working_with_files/WorkingWithFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/working_with_files/students.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/working_with_files/students.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664398542671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="File Info">
+      <created>1664399064475</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664399064475</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +245,7 @@
     <MESSAGE value="Exception Handling" />
     <MESSAGE value="Hash Map Demo" />
     <MESSAGE value="Working With Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working With Files" />
+    <MESSAGE value="File Info" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Info" />
   </component>
 </project>
