@@ -1,5 +1,5 @@
 /*
- * @File: ArrayListClass.java
+ * @File: HashMapDemo.java
  * @Authors: Hakan CERAN, Engin DEMİROĞ
  * @Date: 24.09.2022
  * @Content:
