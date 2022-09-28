@@ -13,6 +13,11 @@ import java.io.IOException;
 
 public class WorkingWithFiles {
     public static void main(String[] args) {
+        createFile();
+        getFileInfo();
+    }
+
+    public static void createFile(){
         File file = new File("src/working_with_files/students.txt");
         try {
             if(file.createNewFile()){
@@ -24,6 +29,17 @@ public class WorkingWithFiles {
             e.printStackTrace();
             throw new RuntimeException(e);
         }
+    }
 
+    public static void getFileInfo(){
+        File file = new File("src/working_with_files/students.txt");
+        if(file.exists()){
+            System.out.println("File Name: " + file.getName());
+            System.out.println("File Absolute Path: " + file.getAbsolutePath());
+            System.out.println("File Path: " + file.getPath());
+            System.out.println("Can File Write: " + file.canWrite());
+            System.out.println("Can File Read: " + file.canRead());
+            System.out.println("File Length Byte: " + file.length());
+        }
     }
 }
