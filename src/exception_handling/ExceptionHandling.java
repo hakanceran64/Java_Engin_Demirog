@@ -1,5 +1,5 @@
 /*
- * @File: ArrayListClass.java
+ * @File: ExceptionHandling.java
  * @Authors: Hakan CERAN, Engin DEMİROĞ
  * @Date: 23.09.2022
  * @Content: try catch ve finally kavramları
@@ -28,5 +28,6 @@ public class ExceptionHandling {
             // finally her zaman çalışır.
             System.out.println("Bazı durumlarda istem başarılı veya başarısız da olsa sistemi kapatmak gerekebilir.");
         }
+
     }
 }
